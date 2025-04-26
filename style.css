@@ -1,10 +1,10 @@
 /* Global Styles */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --light-color: #ecf0f1;
-    --dark-color: #2c3e50;
-    --accent-color: #e74c3c;
+    --primary-color: #ff6b6b;         /* Soft Red-Orange */
+    --secondary-color: #1e272e;       /* Dark Navy Blue */
+    --light-color: #f1f2f6;           /* Light Gray */
+    --dark-color: #2f3542;            /* Charcoal Gray */
+    --accent-color: #70a1ff;          /* Sky Blue */
 }
 
 * {
@@ -16,8 +16,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #2f3542;
+    background-color: #fefefe;
 }
 
 .container {
@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
 }
 
 /* Section Styles */
@@ -270,3 +270,4 @@ footer {
         font-size: 1rem;
     }
 }
+
